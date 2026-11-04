@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    font-family: roboto, sans-serif
+   
+
+}
+
+header{
+    background-color: rgb(82, 42, 131);
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin: 0.1em
+
+    
+
+}
+header > nav {
+    max-width: var(--measure);
+    margin-inline: auto;
+
+}
+header h1{
+    font-size: 3em;
+    margin: 0.5em 0;
+    letter-spacing: 0.01em;
+    color: white;
+
+}
+header p{
+    font-size: 1.2em;
+    margin: 0.5em 0;
+    color: #0a060f;
+    font-style: oblique;
+    color: white;
+}
+nav li{
+    display: inline;
+    align-items: left;
+    padding-inline: 1em;
+    background-color:rgb(171, 6, 216);
+    margin: 10px;
+    border-radius: 10px;
+}
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+ .about{
+text-align: center;
+justify-content: center;
+background-color: rgb(114, 62, 163);
+
+ }
+ h2{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+ }
+
+ #section1 p{
+    padding: 10px 10px 10px 10px;
+    background: var(--color-surface);
+    
+}
+#work{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(114, 62, 163);
+    color: white;
+    margin-top: 0.75rem;
+}
+
+table { 
+    width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: 0.95rem; }
+th, td { 
+    padding: 0.75rem 1rem; border: 1px solid var(--color-border); text-align: left; }
+
+tr:nth-child(even) { 
+    background: #f0ecf7; }
+
+#resume{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(114, 62, 163);
+    color: white;
+    margin-top: 0.75rem;
+}
+a:visited{
+    color: pink;
+}
+a:active{
+    color:cornflowerblue
+}
+video, audio{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 0.75rem;
+}
+#contact{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(114, 62, 163);
+    color: white;
+    margin-top: 0.75rem;
+}
+#form{
+    max-width: 32rem;
+    margin: 0 auto;
+    text-align: center;
+}
+label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+button{
+    background-color: rgb(171, 6, 216);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(82, 42, 131);
+    text-align: center;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+footer p{
+    margin: 0;
+    font-size: 0.9rem;
+}
+footer a{
+    color: blue;
+    text-decoration: underline;
+
+}
